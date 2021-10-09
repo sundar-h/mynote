@@ -22,10 +22,10 @@ Rust中的异步 现阶段还不是很成熟，理解起来比较吃力
 * [Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html)
 * [Rust 中的异步编程](https://huangjj27.github.io/async-book/02_execution/04_executor.html)
 
-[Rust版本指南](https://rustwiki.org/zh-CN/edition-guide/rust-2018/trait-system/impl-trait-for-returning-complex-types-with-ease.html)
+* [Rust版本指南](https://rustwiki.org/zh-CN/edition-guide/rust-2018/trait-system/impl-trait-for-returning-complex-types-with-ease.html)
 
 
-[Rust精选](https://rustmagazine.github.io/rust_magazine_2021/chapter_3/Unsafe_Rust_How_and_when_not_to_use_it.html)
-[RUST异步编程_中文](https://funkill.github.io/async-book-i18n/zh-cn/async-in-rust/chapter.html)
+* [Rust精选](https://rustmagazine.github.io/rust_magazine_2021/chapter_3/Unsafe_Rust_How_and_when_not_to_use_it.html)
+* [RUST异步编程_中文](https://funkill.github.io/async-book-i18n/zh-cn/async-in-rust/chapter.html)
 
 * [Rust FAQ](https://prev.rust-lang.org/en-US/faq.html)
