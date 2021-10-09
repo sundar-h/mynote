@@ -23,5 +23,3 @@ let none_leaf_fut = async {
 };
 rt.block_on(none_leaf_fut);
 ```
-ksjf
-k, j, o, dd 不起作用

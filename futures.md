@@ -31,7 +31,8 @@ async 将被修饰的代码块(通常是fn函数), 装饰为一个Future状态�
 ### Reactor 反应器
 
 `当I/O事件完成时唤醒Future`
-负责处理所有耗时的 I/O, 暂停点, 暂停点需要回复，保存状态，这个状态是Ready()和Pending
+负责监听处理所有耗时的 I/O事件
+每一个await暂停点, 暂停点需要回复，保存状态，这个状态是Ready()和Pending
 todo: 这里和基于回调的Promise模型对比一下(回调地狱, 内存方面)
 放应器事件(IO)准备就绪, 调用wake唤醒future，并移交future传给执行器Executor
 
@@ -50,19 +51,19 @@ Rust: --> Poll
 
 ## 时序 流程
 
-通过句柄使用 Future 的模型, 一下流程中的Future都是指堆上的Future句柄
+通过句柄使用 Future 的模型, 以下流程中的Future都是指堆上的Future句柄
 
 1. Executor(执行器)轮询(Poll) Future, 直到Future需要执行I/O.
-    1.1 Executor(执行器)将Future移交给反应器(Reactor)
+    1.1 Executor(执行器)将Future移交给Reactor反应器(反应器)
 2. Reactor(反应器)等待I/O事件
-    2.1 I/O事件完成, Reactor(放映器)调用waker唤醒Future, 并将Future传递给Exector(执行器)
+    2.1 I/O事件完成, Reactor(反应器)调用waker唤醒Future, 并将Future传递给Executor(执行器)
 3. 重复1. 2 步骤, 直到Future返回Ready()
     3.1 Future已经完成，执行器释放句柄和真个Future
     3.2 调度完成
 
 总结: 我们轮询 Future ，然后等待 I/O 将其唤醒，然后一次又一次地轮询和唤醒，直到最终整个过程完成为止。
 三个阶段:
-    轮询: 执行器轮询Future直到它返回Pending
+    轮询: 执行器轮询Future直到它返回Pending或者Ready()完成
     等待: 反应器记录Future正在监听某个事件
     唤醒: 事件发生,反应器唤醒Future使其能够再次被轮询
 
