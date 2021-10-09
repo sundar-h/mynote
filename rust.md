@@ -27,3 +27,5 @@ Rust中的异步 现阶段还不是很成熟，理解起来比较吃力
 
 [Rust精选](https://rustmagazine.github.io/rust_magazine_2021/chapter_3/Unsafe_Rust_How_and_when_not_to_use_it.html)
 [RUST异步编程_中文](https://funkill.github.io/async-book-i18n/zh-cn/async-in-rust/chapter.html)
+
+* [Rust FAQ](https://prev.rust-lang.org/en-US/faq.html)
