@@ -1,4 +1,13 @@
 ## 异步模型
+
+### 演进过程:
+* Iterator next
+* Generator 异步的、惰性求值
+* Async/Await
+
+Future 的方法 FutureExt
+
+
 [基础概念](https://youjiali1995.github.io/rust/async/)
 **异步编程的语法目标，就是怎样让它更像同步编程。**
 
