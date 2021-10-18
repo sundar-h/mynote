@@ -42,3 +42,6 @@ Rust中的异步 现阶段还不是很成熟，理解起来比较吃力
 
 ## Rust设计模式
 * [Rust Design Patterns](https://rust-unofficial.github.io/patterns/idioms/ffi/errors.html)
+[Rust设计模式](http://chuxiuhong.com/chuxiuhong-rust-patterns-zh/idioms/pass-var-to-closure.html)
+
+[2021学习Rust语言的最佳途径](https://mp.weixin.qq.com/s/UvDjGjW_qs3lvnaH-GsWZQ)
