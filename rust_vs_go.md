@@ -24,3 +24,12 @@
 
 * Golang 类型严格，没有隐式类型转换
 * Rust 有自动类型转换  ~~ 不太喜欢 (包括Into From 和 泛型约束 as_ref, as_mut)
+
+
+
+## 工具生态
+
+## 性能VS调试
+
+* pprof --> golang
+* pprof-rs --> rust
