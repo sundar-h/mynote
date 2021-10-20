@@ -73,7 +73,10 @@ trait Animal {
      }
  }
  ​
- impl dyn Animal {
+ // 这种写法是错误的: 应该加上生命周期
+//  impl dyn Animal {
+// https://doc.rust-lang.org/reference/types/trait-object.html
+ impl<'a'> dyn Animal + 'a {'
      fn talk() {
          println!("talk");
      }

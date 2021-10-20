@@ -17,6 +17,5 @@ https://www.wtog.fun/2019/09/10/flink-vs-spark.html
       * Source 向内部系统输入数据源 -- 通信模块
       * Sink   向外部数据吐出数据   -- 通信模块
       * Function 业务逻辑           -- 业务模块
-  * Extern 
   * Examples
   * Docs
