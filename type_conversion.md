@@ -13,4 +13,14 @@
 
 
 
+sub-trait coercion
+super-trait coercion
+
 mut  * ref deref as_ref, as_mut
+
+
+
+* 对象不可以使用 dyn trait的方法
+* dyn trait对象可以使用对象的方法 和 dyn trait的方法
+* super-trait coercion 可以使用 #![feature(trait_upcasting)] 来支持
+  - [trait_upcasting](https://doc.rust-lang.org/nightly/unstable-book/language-features/trait-upcasting.html#trait_upcasting)

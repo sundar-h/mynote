@@ -5,6 +5,7 @@
 * [Rust By Example](https://rustwiki.org/zh-CN/rust-by-example/std_misc/threads/testcase_mapreduce.html)
 * [通过例子学 Rust 中文版](https://rustwiki.org/zh-CN/rust-by-example/std_misc/threads/testcase_mapreduce.html)
 * [rust_cheat]()
+* [The Rust Unstable Book](https://doc.rust-lang.org/nightly/unstable-book/language-features/trait-upcasting.html#trait_upcasting)
 
 ## 异步
 Rust中的异步 现阶段还不是很成熟，理解起来比较吃力
@@ -48,3 +49,4 @@ Rust中的异步 现阶段还不是很成熟，理解起来比较吃力
 
 [Rust 和 WebAssembly](http://llever.com/rustwasm-book)
 [Rust And WebAssembly](https://rustwasm.github.io/docs/book/)
+

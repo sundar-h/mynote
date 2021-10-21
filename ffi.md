@@ -1,5 +1,9 @@
 # Langurage FFI Resource
 
+## 问题
+* host和guest language 的内存管理问题
+* 类型系统的转换 ABI?
+
 ## Rust
 
 [The Rustonomicon](https://doc.rust-lang.org/nomicon/ffi.html)
