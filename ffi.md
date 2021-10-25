@@ -16,6 +16,7 @@
 [dynamic-loading--plugins](https://michael-f-bryan.github.io/rust-ffi-guide/dynamic_loading.html)
 
 ## Golang
+[cgo](https://pkg.go.dev/cmd/cgo#hdr-Go_references_to_C)
 [cgo Wiki](https://github.com/golang/go/wiki/cgo#function-variables)
 [Calling C code from go](https://karthikkaranth.me/blog/calling-c-code-from-go/)
 [The official Cgo documentation](https://pkg.go.dev/cmd/cgo)
