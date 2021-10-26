@@ -50,3 +50,7 @@ Rust中的异步 现阶段还不是很成熟，理解起来比较吃力
 [Rust 和 WebAssembly](http://llever.com/rustwasm-book)
 [Rust And WebAssembly](https://rustwasm.github.io/docs/book/)
 
+
+
+### 
+[Learning Rust](https://learning-rust.github.io/docs/a1.why_rust.html)

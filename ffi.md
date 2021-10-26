@@ -22,3 +22,20 @@
 [The official Cgo documentation](https://pkg.go.dev/cmd/cgo)
 [More details](https://eli.thegreenplace.net/2019/passing-callbacks-and-pointers-to-cgo/)
 "" https://dev.to/mattn/call-go-function-from-c-function-1n3
+
+
+
+## [Rust CString ](https://doc.rust-lang.org/std/ffi/struct.CString.html)
+
+### 类比
+CString --> &CStr
+String --> &str
+CString 一个有所有权，CStr 一个没有
+CString.as_ptr() --> *const c_char 只读 read only
+
+CString::as_bytes() 返回没有C 字符串结束符的\0的bytes
+以*const u8 为参数的时候，使用
+
+
+## Rust Call C Or C++
+[Calling a tiny C code in Rust](https://liufuyang.github.io/2020/02/02/call-c-in-rust.html)
