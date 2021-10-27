@@ -16,6 +16,7 @@
 [dynamic-loading--plugins](https://michael-f-bryan.github.io/rust-ffi-guide/dynamic_loading.html)
 
 ## Golang
+[CGO编程: Go语言高级编程](https://chai2010.cn/advanced-go-programming-book/ch2-cgo/ch2-03-cgo-types.html)
 [cgo](https://pkg.go.dev/cmd/cgo#hdr-Go_references_to_C)
 [cgo Wiki](https://github.com/golang/go/wiki/cgo#function-variables)
 [Calling C code from go](https://karthikkaranth.me/blog/calling-c-code-from-go/)
