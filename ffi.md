@@ -40,3 +40,15 @@ CString::as_bytes() 返回没有C 字符串结束符的\0的bytes
 
 ## Rust Call C Or C++
 [Calling a tiny C code in Rust](https://liufuyang.github.io/2020/02/02/call-c-in-rust.html)
+
+[Rust FFI 编程 - 手动绑定 C 库入门 06](https://cloud.tencent.com/developer/article/1656791)
+[The Rust FFI Omnibus ](http://jakegoulding.com/rust-ffi-omnibus/)
+[Rust FFI Guide](https://michael-f-bryan.github.io/rust-ffi-guide/)
+
+[Rust Primer](https://rustcc.gitbooks.io/rustprimer/content/closure/implementation.html)
+[Rust FFI 编程 - 手动绑定 C 库入门 06](https://cloud.tencent.com/developer/article/1656791)
+
+
+
+[callback_closure](https://adventures.michaelfbryan.com/posts/rust-closures-in-ffi/)
+[Rust Closures in FFI](https://adventures.michaelfbryan.com/posts/rust-closures-in-ffi/)
