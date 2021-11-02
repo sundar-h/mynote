@@ -50,5 +50,4 @@ CString::as_bytes() 返回没有C 字符串结束符的\0的bytes
 
 
 
-[callback_closure](https://adventures.michaelfbryan.com/posts/rust-closures-in-ffi/)
-[Rust Closures in FFI](https://adventures.michaelfbryan.com/posts/rust-closures-in-ffi/)
+[FFI中的闭包回调 Rust Closures in FFI](https://adventures.michaelfbryan.com/posts/rust-closures-in-ffi/)
